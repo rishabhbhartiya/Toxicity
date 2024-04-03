@@ -2,7 +2,7 @@ import streamlit as st
 import pickle 
 import numpy as np 
 #from sklearn.feature_extraction.text import TfidfVectorizer
-from sklearn.naive_bayes import MultinomialNB
+#from sklearn.naive_bayes import MultinomialNB
 
 def load_tfidf():
     tfidf = pickle.load(open("tf_idf.pkt", "rb"))
